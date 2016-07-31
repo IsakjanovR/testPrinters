@@ -1,0 +1,45 @@
+ul{display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;}
+li{display: block;
+    float: left;
+    width: calc(100% /5);
+    padding: 3px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    text-align: center;}
+a{text-decoration: none;
+    color: black;}
+.row{width: 80%;
+    margin: auto;
+    padding: 0px;
+}
+.active a{
+    color: red;
+
+}
+fieldset{width: 40%;
+    margin-top: 10px;}
+span{
+    color:red;}
+div> input, div> select{
+    float: right;
+    width: 70%;
+}
+div{height: 25px;}
+.button{width: 20%;
+    background-color: #0c4d78;
+    float: left;
+    margin-top: 10px;
+    color: white;
+    border-radius: 15%;
+    height: 30px;}
+input[type="text"] {
+    width: 80%;
+}
+.red{background-color: firebrick;}
+
+input[type="checkbox"] {
+    width: 10%;
+}
